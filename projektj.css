@@ -616,7 +616,7 @@ ol{
   display: block;
   position:fixed;
   overflow: hidden;
-  margin-top: -50px;
+  margin-top: -80px;
     margin-left:10px;
   padding: 0;
   width: 60px;
@@ -717,8 +717,7 @@ display:block;
     background-color: #303030;
   margin-top:-80px;
     width:100%;
-     margin-left:auto;
-     margin-right:auto;
+     margin-left:-20px;
     }                
 
     
@@ -836,6 +835,7 @@ ol > li {
     .start{
         height:700px;}
     .onas{
+        margin-top:-150px;
         height:700px;}
     .oferta{
         height:700px;}
