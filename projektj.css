@@ -568,6 +568,19 @@ transform: scale3d(1, 1, 1);
 
 /*-------------SZEROKOSC DLA MOBILE--------------*/
 @media (max-width:768px){
+    html, body {
+
+    
+    overflow-x:hidden !important;
+    margin:0 !important;
+    padding:0;
+
+
+  
+    }
+    
+    
+    
   
    /*IKONKI FONTELLO*/
 .ikonki{
@@ -852,19 +865,19 @@ ol > li {
     }
     
     .start{
-        height:800px;}
+        height:700px;}
     .onas{
-        height:800px;}
+        height:700px;}
     .oferta{
         height:800px;}
     .realizacje{
-        height:800px;}
+        height:700px;}
     .kontakt{
-        height:800px;}
+        height:700px;}
     .lokalizacja{
-        height:800px;}
+        height:700px;}
     .media{
-        height:800px;}
+        height:700px;}
     
     
     
