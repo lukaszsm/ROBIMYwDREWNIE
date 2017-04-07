@@ -742,9 +742,7 @@ display:block;
     width:100%;
     }                
 
-    .start{
-        height:600px
-    }  
+    
     .contmedia{
     text-align: center;
     display:block;
@@ -864,11 +862,11 @@ ol > li {
     }
     
     .start{
-        height:700px;}
+        height:600px;}
     .onas{
         height:700px;}
     .oferta{
-        height:800px;}
+        height:700px;}
     .realizacje{
         height:700px;}
     .kontakt{
