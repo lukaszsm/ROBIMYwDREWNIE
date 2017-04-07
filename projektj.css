@@ -593,6 +593,7 @@ transform: scale3d(1, 1, 1);
 }  
     
 .logo img{
+    margin-top:-30px;
  width:  250px; 
  margin-left:auto;
 margin-right:auto;
