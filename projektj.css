@@ -585,7 +585,7 @@ transform: scale3d(1, 1, 1);
 .logo {
     background-color: white;
     min-width:100%;
-    margin-top:100px;
+    margin-top:50px;
     display:block;
     font-size: 50px;
     margin-left: auto;
