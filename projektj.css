@@ -19,7 +19,7 @@ button{
 
 /*LOGO*/ 
 .logo {
-    margin-top:140px;
+    margin-top:80px;
     background-color: white;
     min-width:100%;
     height:auto;
@@ -381,6 +381,7 @@ input[type=submit] {
    margin-left:auto;
     margin-right:auto;
     margin-bottom: 0px;
+
     min-width:50%;
     height:300px; 
     overflow:hidden;
@@ -567,11 +568,23 @@ transform: scale3d(1, 1, 1);
 
 /*-------------SZEROKOSC DLA MOBILE--------------*/
 @media (max-width:768px){
+ 
     html, body {
+
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
     overflow-x:hidden !important;
     margin:0 !important;
-    padding:0;}
+    padding:0;
 
+    }
+
+    
+    
+    
+    
+    
    /*IKONKI FONTELLO*/
 .ikonki{
     margin-left:auto;
@@ -582,10 +595,15 @@ transform: scale3d(1, 1, 1);
     color:burlywood;
     text-align: center;
     }
+    
+    
+
+    
+
 .logo {
     background-color: white;
     min-width:100%;
-    margin-top:0px;
+    margin-top:140px;
     display:block;
     font-size: 50px;
     margin-left: auto;
@@ -593,7 +611,6 @@ transform: scale3d(1, 1, 1);
 }  
     
 .logo img{
-   
  width:  250px; 
  margin-left:auto;
 margin-right:auto;
@@ -608,16 +625,20 @@ figcaption{
     margin-left:auto;
     margin-right:auto;
 }
- 
+    
+
+    
+   
 ol{
         display:none;
     }
 
+    
 .c-hamburger {
   display: block;
   position:fixed;
   overflow: hidden;
-  margin-top: -40px;
+  margin-top: -130px;
     margin-left:10px;
   padding: 0;
   width: 60px;
@@ -630,6 +651,8 @@ ol{
   border: none;
   cursor: pointer;
   transition: background 0.3s;
+
+
 }
 
 .c-hamburger:focus {
@@ -712,6 +735,8 @@ form {
     }
     
  footer{
+    
+  
 display:block;
     padding:20px;
     line-height:100%;
@@ -721,7 +746,9 @@ display:block;
      margin-left:-20px;
     }                
 
-    
+    .start{
+        height:100vh;
+    }  
     .contmedia{
     text-align: center;
     display:block;
@@ -762,14 +789,19 @@ display:block;
         font-size:14px;
  }
     .nav {
-    margin-top:-420px;
+    
+    margin-top:-460px;
     width: 100%;
     padding: 20px 0;
     background-color:burlywood;
 display:none;
 list-style-type: none;
+height:100vh;
 text-align: center;
     position:fixed;
+        
+
+
 
     /*border-top: 1px solid #757b1b;
     border-bottom: 1px solid #757b1b;*/
@@ -800,7 +832,8 @@ ol > li {
     height: 40px;
     }
 
-    .icon-angle-circled-up{   
+    .icon-angle-circled-up{
+        
     color:black;
     font-size:64px;
     text-decoration: none;
@@ -808,7 +841,9 @@ ol > li {
     display: none !important;
     cursor:pointer;
     }
-
+    
+    
+    
     .contmedia{
     text-align: center;
     display:block;
@@ -832,29 +867,6 @@ ol > li {
     margin-top:30px;
     margin-bottom:40px;
     }
-    
-    .start{
-        height:700px;}
-    .onas{
-        margin-top:-150px;
-        height:700px;}
-    .oferta{
-        height:700px;}
-    .realizacje{
-        height:700px;}
-    .kontakt{
-        height:700px;}
-    .lokalizacja{
-        height:700px;}
-    .media{
-        height:700px;}
-
-    
-    
-    
-    
-    
-    
  
     
 }
