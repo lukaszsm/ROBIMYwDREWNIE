@@ -1,260 +1,351 @@
-<!DOCTYPE=html>
+<!DOCTYPE html>
 <html lang="pl">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Robimy w Drewnie</title>
-    <meta name="description" content="informacje na temat projektu strony" />
-    <meta name="keywords" content="slowa kluczowe" />
-    <link href="projektj.css" rel="stylesheet" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=Lato|Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Robimy w drewnie</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato|Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Miniver" rel="stylesheet">
-    <link href="css/fontello.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="animate.css" type="text/css"/>
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="Shortcut icon" href="img/favicon.ico">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
+
 <body>
-    
-    <div class="start">
-     <button class="c-hamburger c-hamburger--htx">
-  <span>toggle menu</span>
-</button>
-        <div class="logo">
-            <figure>
-            <a href="index.html"><img src="img/logo1.png"></a>
-            </figure>
-            <figcaption>Robimy w Drewnie</figcaption>
-        </div>
-   
-    <div class="nav">
-        <ol>
-            <li><a id="link1" href="#">O nas</a></li>
-            <li><a id="link2" href="#">Oferta</a></li>
-            <li><a id="link3" href="#">Realizacje</a></li>
-            <li><a id="link4" href="#">Kontakt</a></li>
-            <li><a id="link5" href="#">Lokalizacja</a></li>
-            <li><a id="link6" href="#">Media</a></li>
-        </ol>
-    </div>
-    </div>
-    
-    
-   <i class="icon-angle-circled-up"></i>
 
-<div class="onas">
-   <div class="ikonki">
-        <div id="onas"></div>
-           <i class="icon-id-card-o"></i>
-        </div>
-    <h2>O nas</h2>
-    <div class="content">
-        <p>Na rynku istniejemy już od 1993 roku zdobywając silną pozycję wśród producentów wyrobów drewnianych. Specjalizujemy się w produkcji i sprzedaży najwyższej jakości wyrobów z drewna takich jak: altany, domki, komplety ogrodowe, wyposażenie placów zabaw, pergole, studnie, wiatraki oraz wiele innych elementów ogrodowych. Polecamy również bogatą ofertę mebli sosnowych oraz galanterii drewnianych i akcesoriów metalowych. W naszym sklepie dostępne są również farby, impregnaty, lakiery oraz środki chemiczne.</p>
-       
-    </div>
-    </div>
-   
-
-    <div class="oferta">  
-        <div class="ikonki">
-        <div id="oferta"></div>
-           <i class="icon-star-empty"></i>
-            </div>
-        <h2>Oferta</h2>
-       
-        <ul class="oferta">
-            <li>Altany i Zadaszenia</li>
-            <li>Studnie i Huśtawki</li>
-            <li>Pergole i Balustrady</li>
-            <li>Kapliczki</li>
-            <li>Domki dla dzieci</li>
-            <li>Meble ogrodowe</li>
-            <li>Budy oraz donice</li>
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Robimy w drewnie</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Start</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>O nas</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>Oferta</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Realizacje</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Kontakt</a>
+            </li>
         </ul>
-            </div>
+    </nav>
 
-    <div class="realizacje">
-        <div class="ikonki">
-        <div id="realizacje"></div>
-        <i class="icon-tools"></i>
-            </div>
-        <h2>Realizacje</h2>
-
-        </div>
- 
-        
-
-<div class="kontakt">
-    <div class="ikonki">
-        <div id="kontakt"></div>
-           <i class="icon-mail"></i>
-            </div>      
-    <h2>Kontakt</h2> 
-    <div class="phone">+48 698 300 622</div>
-    <form method="post">    
-        <label for="imie"></label> 
-        <input type="text" name="imie" placeholder="Imię" required="required" maxlength="15"/><br>
-        <!-- 
-        <?php
-        if (isset($_SESSION['e_imie']))
-        {
-            echo '<div class="error">'.$_SESSION['e_imie'].'</div>';
-            unset($_SESSION['e_imie']);
-        }
-        ?>
-        -->
-        <label for="nazwisko"></label>
-        <input type="text" name="nazwisko" placeholder="Nazwisko" required="required" maxlength="25"/><br>
-        <!--
-        <?php
-        if (isset($_SESSION['e_nazwisko']))
-        {
-            echo '<div class="error">'.$_SESSION['e_nazwisko'].'</div>';
-            unset($_SESSION['e_nazwisko']);
-        }
-        ?>
-        -->
-        <label for="email"></label>
-        <input type="text" name="email" placeholder="twoja_nazwa@domena.pl" required="required" maxlength="25"/><br>
-        <!--
-        <?php
-        if (isset($_SESSION['e_email']))
-        {
-            echo '<div class="error">'.$_SESSION['e_email'].'</div>';
-            unset($_SESSION['e_email']);
-        }
-        ?>
-        -->    
-        <label for="tresc"></label> 
-        <textarea name="tresc" placeholder="Wpisz treść wiadomości"></textarea>
-        <input type="submit" value="Wyślij" name="send"/>
-    </form>
-</div>
-
-
-    <div class="lokalizacja">
-            <div class="ikonki">
-                <div id="lokalizacja"></div> 
-           <i class="icon-map-o"></i>
-            </div>
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+         <figure>
+            <img src="img/logo.png">
+            </figure>
             
-      <h2>Lokalizacja</h2>
-         <h4>Tomasz Buczkowski<br>Wola Zarczycka 246<br>37-311 Wola Zarczycka</h4>
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.5053673150246!2d22.22009405702786!3d50.30116042994523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cdb82ca17348d%3A0xa135f589e21c7885!2sWola+Zarczycka+246%2C+37-311+Wola+Zarczycka!5e0!3m2!1spl!2spl!4v1484662873247">
-        </iframe>
-    
-</div>
+              
+            <h1>Robimy w drewnie</h1>
+            
+            
+            <a href="#about" class="btn btn-dark btn-lg">Poznajmy się!</a>
+        </div>
+    </header>
 
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>O nas</h2>
+                     <hr class="small">
+                    <p class="lead">Jako rodzinna działalność dokładamy wszelkich starań, aby nasza marka rozkwitała z każdym kolejnym dniem jej istnienia.<br>Nasze początki sięgają roku 2000, gdzie jako pasjonaci drewna postanowiliśmy wyjść z naszą ofertą na miejscowy rynek.
+                        <br>Dzisiaj świadczymy usługi w każdym zakątku naszego kraju. Mając lata doświadczenia oraz szeroką ofertę, jesteśmy gotowi sprostać Państwa oczekiwaniom.
+                    </p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
 
-        <div class="media">
-            <div class="ikonki">
-        <div id="media"></div>
-           <i class="icon-television"></i>
-</div>   
-    <h2>Media</h2>
-    <div class=contmedia>
-       <p>Zapraszamy do odwiedzenia naszych kont społecznościowych, gdzie na bieżąco relacjonujemy zakres wykonywanych prac</p> 
-        <p>Znajdą nas Państwo tutaj</p>
-</div>
-        <div class="socialdivs">
-            <div class="Facebook">
-        <a href="https://www.facebook.com" class="socialslink" target="_blank">
-           <i class="icon-facebook"><br>Facebook</i></a>
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Oferta</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-check-square-o fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Jakość</strong>
+                                </h4>
+                                <p>Nasze podukty cechuje świetna jakość, a wszystko to dzięki odpowiedniej selekcji i doborze materiałow</p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rocket fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Szybkość</strong>
+                                </h4>
+                                <p>Staramy się maksymalnie przyśpieszyć czas realizacji każdego zlecenia. Zdarza się, że pracujemy 24h/7</p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-truck fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Logistyka</strong>
+                                </h4>
+                                <p>Kwestia transportu jest dla nas bardzo ważna. Czy to Rzeszow, czy Gdynia, odległość nie  stanowi dla nas bariery</p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-thumbs-o-up fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Zadowolenie</strong>
+                                </h4>
+                                <p>Istotna cecha jaką dostrzegamy w oczach naszych klientow. To dzięki niej wiemy, ze zmierzamy we wlasciwym kierunku</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
             </div>
-        <div class="Twitter">
-            <a href="https://www.twitter.com" class="socialslink" target="_blank">
-                <i class="icon-twitter"><br>Twitter</i></a>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <!--<aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Vertically Centered Text</h1>
+        </div>
+    </aside>-->
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Realizacje</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a href="https://www.olx.pl/oferty/uzytkownik/1LKmf/" class="btn btn-dark">Pełna oferta</a>
+                </div>
+                <!-- /.col-lg-10 -->
             </div>
-        <div class="Instagram">
-            <a href="https://www.instagram.com" class="socialslink" target="_blank">
-                <i class="icon-instagram"><br>Instagram</i></a>  
-            </div>
-        <div class="LinkedIn">
-            <a href="https://www.linkedin.com" class="socialslink" target="_blank">
-                <i class="icon-linkedin"><br>LinkedIn</i></a>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+   
+
+    <!-- Map -->
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.5279478880216!2d22.21884321572595!3d50.300738979455005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cdb82c67db3ff%3A0xeadd18c38d6e5dc3!2sWola+Zarczycka+245%2C+37-311+Wola+Zarczycka%2C+Polska!5e0!3m2!1spl!2suk!4v1499893679520; t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.5279478880216!2d22.21884321572595!3d50.300738979455005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cdb82c67db3ff%3A0xeadd18c38d6e5dc3!2sWola+Zarczycka+245%2C+37-311+Wola+Zarczycka%2C+Polska!5e0!3m2!1spl!2suk!4v1499893679520"></a>
+        </small>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Robimy w drewnie</strong>
+                    </h4>
+                    <p>Wola Zarczycka 245
+                        <br>37-311 Wola Zarczycka<br> podkarpackie, Polska</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> +48 698 300 622</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:robimywdrewnie@onet.pl">robimywdrewnie@onet.pl</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Wszelkie prawa zastrzeżone &copy; Robimy w drewnie 2017</p>
+                </div>
             </div>
         </div>
-            </div>
-        <footer>
-        <p>Robimy w drewnie 2017 &copy; All rights reserved <br> Created and designed by <a href="mailto:lukasz.smycz@icloud.com">Lukasz Smycz</a></p>
-        </footer>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
 
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
+    <!-- Custom Theme JavaScript -->
     <script>
-    (function() {
-  "use strict";
-  var toggles = document.querySelectorAll(".c-hamburger");
-  for (var i = toggles.length - 1; i >= 0; i--) {
-    var toggle = toggles[i];
-    toggleHandler(toggle);
-  };
-  function toggleHandler(toggle) {
-    toggle.addEventListener( "click", function(e) {
-      e.preventDefault();
-      (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
-        
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
     });
-  }
-})();
-</script>   
- 
-  
-    
-    
-    
-    
-    
-<script src="jquery-3.1.1.min.js"></script>
-<script src="jquery.scrollTo.min.js"></script>
-<script>
-    jQuery(function($)
-           {
-        $.scrollTo(0);
-        $('#link1').click(function(){ $.scrollTo($('#onas'),1000);});
-        $('#link2').click(function(){ $.scrollTo($('#oferta'),1000);});
-        $('#link3').click(function(){ $.scrollTo($('#realizacje'),1000);});
-        $('#link4').click(function(){ $.scrollTo($('#kontakt'),1000);});
-        $('#link5').click(function(){ $.scrollTo($('#lokalizacja'),1000);});
-        $('#link6').click(function(){ $.scrollTo($('#media'),1000);});
-        $('.icon-angle-circled-up').click(function(){ $.scrollTo($('html'),1000);});
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
     }
-    );
-    //pokaż podczas przewijania
-    $(window).scroll(function()
-                     {
-        if($(this).scrollTop()>300) $('.icon-angle-circled-up').fadeIn();
-        else $('.icon-angle-circled-up').fadeOut();
-    }
-    );
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
     </script>
 
-
- <script src="jquery-3.1.1.min.js"></script>
-       <script>
-            $(document).ready(function(){
-  $('button').click(function(){
-    $('.nav').stop().slideToggle(300);
-  });
-});   
-        
-        </script>
- 
-    <!--
-    <script src="jquery-3.1.1.min.js"></script>
-       <script>
-            $(document).ready(function(){
-  $('#link1').click(function(){$('.nav').stop().slideToggle(300);}); 
-  $('#link2').click(function(){$('.nav').stop().slideToggle(300);}); 
-  $('#link3').click(function(){$('.nav').stop().slideToggle(300);}); 
-  $('#link4').click(function(){$('.nav').stop().slideToggle(300);}); 
-  $('#link5').click(function(){$('.nav').stop().slideToggle(300);}); 
-  $('#link6').click(function(){$('.nav').stop().slideToggle(300);}); 
-             
-   });   
-
-        </script>
-    !-->
-
 </body>
+
 </html>
